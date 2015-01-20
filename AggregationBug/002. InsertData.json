@@ -1,0 +1,11 @@
+﻿PUT posts/feed-post/1
+{
+    "message": { "original": "Fresh milk for sale. City center." },
+    "group": { "categories": "Food", "name": "Group 1", "privacy": "Closed" }
+}
+
+PUT posts/feed-post/2
+{
+    "message": { "original": "Get your chinese jeans! China town." },
+    "group" :  {"categories": "Clothes", "name": "Group 2", "privacy": "Open"}
+}
